@@ -169,3 +169,19 @@ body {
     margin-top: 2rem;
     line-height: 3rem;
 }
+
+.img-about {
+    background-image: url(../img/about.jpg);
+    background-size: contain;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 2rem;
+
+}
+
+.quote {
+    color: #9593e6;
+    font-size: 4rem;
+    transform: rotate(180deg);
+}
