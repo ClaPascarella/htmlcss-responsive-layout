@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*******HEADER********/
+.nav {
+    background-color: #0084fd;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+/*****MAIN******/
+.container{
+    margin: 0 auto;
+    width: 400px;
+    
+}
+    
+.card-big {
+    background-color: #b5ddff;
+    width: 80%;
+    height: 30rem;
+    margin-top: 2rem;
+    border-radius: 5%;
+    margin-left: 2rem;
+   
+}
+
+.title {
+    color: #0084fd;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.par {
+    color: grey;
+    width: 300px;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 2rem;
+    font-size: 15px;
+    margin-left: 0.5rem;
+}
+
+/******CARD-SMALL*******/
+.card-small{
+    background-color: #b5ddff;
+    width: 80%;
+    height: 20rem;
+    margin-top: 2rem;
+    border-radius: 5%;
+    margin-left: 2rem;
+}
+
+
+
+/******CONTAINER JUMBO******/
+.jumbo {
+    background-color: #9593e6;
+    width: 100%;
+    height: 85rem;
+    margin-top: 2rem;
+}
+
+.imgwoman {
+    width: 300px;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+
+}
+
+.title2 {
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.par2 {
+    color: white;
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+.card-white {
+    background-color: white;
+    width: 384px;
+    height: 40rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 13%;
+    padding: 5rem;
+}
+
+/*********CONTAINER WHITE ******/
+.center {
+    text-align: center;
+}
+   
+.title3 {
+    color: #9593e6;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+    
+
+.par3{
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+/*******CARD PURPLE*****/
+.card-purple{
+    background-color: #9593e6;
+    width: 80%;
+    height: 30rem;
+    margin-top: 2rem;
+    border-radius: 10%;
+    margin-left: 3rem;
+}
+
+/******CONTAINER PURPLE******/
+
+.container-purple{
+    margin-top: 6rem;
+    height: 210rem;
+    width: 100%;
+    background-color: #9593e6;
+}
+
+.title4 {
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    
+}
+
+/*******CARD WHITE******/
+.card-white2{
+    background-color:white;
+    width: 80%;
+    height: 30rem;
+    margin-top: 2rem;
+    border-radius: 5%;
+    margin-left: 3rem;
+}
+    
+/******CONTAINER ABOUT US******/
+.par4 {
+    margin-top: 2rem;
+    line-height: 3rem;
+}
