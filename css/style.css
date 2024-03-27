@@ -36,8 +36,10 @@ body {
    
 }
 
+
 .flex {
     flex-direction: column;
+    display: flex;
 }
     
     
@@ -232,8 +234,42 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.container-test {
+    width: 300px;
     margin-left: 3rem;
-    margin-top: 3rem;
+}
+
+.details-testimonial {
+    color: white;
+    line-height: 2rem;
+}
+
+.testimonial-name {
+    margin-left: 3rem;
+}
+
+.testimonial2 {
+    background-image: url(../img/testimonial2.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.testimonial3 {
+    background-image: url(../img/testimonial3.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 5rem;
+    margin-top: 2rem;
 }
 
 
@@ -242,7 +278,7 @@ body {
 
 .container-purple{
     margin-top: 6rem;
-    height: 210rem;
+    height: 175rem;
     width: 100%;
     background-color: #9593e6;
    
@@ -250,26 +286,65 @@ body {
 
 .title4 {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-top: 2rem;
+    height: 55px;
+    margin-left: 4rem;
     
 }
 
 /*******CARD WHITE******/
+.container2{
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 20px;
+   
+}
 .card-white2{
     background-color:white;
     width: 80%;
-    height: 30rem;
-    margin-top: 2rem;
+    height: 25rem;
+    margin-top: 3rem;
     border-radius: 5%;
-    margin-bottom: -3rem;
-   
+    
+}
+
+.number {
+    color: #9593e6;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.high {
+    color: #9593e6;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.par-white {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 2rem;
+    color: grey;
+}
+
+.btn-purple2 {
+    background-color: #9593e6;
+    margin-left: 2rem;
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    margin-top: 2rem;
+
 }
     
 /******CONTAINER ABOUT US******/
 .par4 {
     margin-top: 2rem;
     line-height: 3rem;
+    margin-left: 2rem;
 }
 
 .img-about {
@@ -447,6 +522,40 @@ a {
 
     .logo2 {
         font-size: 1.6rem;
+    }
+
+    .card-purple {
+        width: 1000px;
+        height: 15rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-purple {
+        height: 1200px;
+    }
+
+    .title4 {
+        margin-left: 10rem;
+        font-size: 2.5rem;
+    }
+
+    
+    .card-white2 {
+        width: 300px;
+        height: 450px;
+        margin-top: 6rem;
+        
+       
+    }
+
+    .container2 {
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 10px
+
     }
 
         
